@@ -1,4 +1,4 @@
-
+// MINIUM SPANNING TREE
 export const runMST = (nodes, edges, isDirected) => {
   if (isDirected) {
     return {
