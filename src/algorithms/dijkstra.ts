@@ -1,4 +1,4 @@
-
+// DIJKSTRA'S ALGORITHM
 export const runDijkstra = (nodes, edges, startNodeId, endNodeId, isDirected) => {
   const distances = {};
   const previous = {};
