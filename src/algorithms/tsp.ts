@@ -1,4 +1,4 @@
-
+//TRAVELLING SALESMAN PROBLEM
 export const runTSP = (nodes, edges, startNodeId, isDirected) => {
   if (nodes.length > 8) {
     return runTSPGreedy(nodes, edges, startNodeId, isDirected);
@@ -23,6 +23,7 @@ function runTSPBruteForce(nodes, edges, startNodeId, isDirected) {
       bestPath = path;
     }
   });
+  
 
   return {
     path: bestPath,
